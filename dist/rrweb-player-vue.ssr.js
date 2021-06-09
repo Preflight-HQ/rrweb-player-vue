@@ -4313,7 +4313,7 @@ var __vue_render__ = function __vue_render__() {
     ref: "player",
     staticClass: "rr-player",
     style: _vm.playerStyle
-  }, [_vm._ssrNode("<div class=\"rr-player__frame\"" + _vm._ssrStyle(null, _vm.style, null) + " data-v-da137758></div> "), Object.values(_vm.replayer).length ? [_c('Controller', {
+  }, [_vm._ssrNode("<div class=\"rr-player__frame\"" + _vm._ssrStyle(null, _vm.style, null) + " data-v-81644ed0></div> "), Object.values(_vm.replayer).length ? [_c('Controller', {
     ref: "controller",
     attrs: {
       "replayer": _vm.replayer,
@@ -4344,8 +4344,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-da137758_0", {
-    source: ".replayer-wrapper[data-v-da137758]{position:relative}.replayer-mouse[data-v-da137758]{position:absolute;width:20px;height:20px;transition:.05s linear;background-size:contain;background-position:50%;background-repeat:no-repeat;background-image:url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCA1MCA1MCI+PHBhdGggZD0iTTQ4LjcxIDQyLjkxTDM0LjA4IDI4LjI5IDQ0LjMzIDE4YTEgMSAwIDAwLS4zMy0xLjYxTDIuMzUgMS4wNmExIDEgMCAwMC0xLjI5IDEuMjlMMTYuMzkgNDRhMSAxIDAgMDAxLjY1LjM2bDEwLjI1LTEwLjI4IDE0LjYyIDE0LjYzYTEgMSAwIDAwMS40MSAwbDQuMzgtNC4zOGExIDEgMCAwMC4wMS0xLjQyem0tNS4wOSAzLjY3TDI5IDMyYTEgMSAwIDAwLTEuNDEgMGwtOS44NSA5Ljg1TDMuNjkgMy42OWwzOC4xMiAxNEwzMiAyNy41OEExIDEgMCAwMDMyIDI5bDE0LjU5IDE0LjYyeiIvPjwvc3ZnPg==)}.replayer-mouse[data-v-da137758]:after{content:\"\";display:inline-block;width:20px;height:20px;border-radius:10px;background:#4950f6;transform:translate(-10px,-10px);opacity:.3}.replayer-mouse.active[data-v-da137758]:after{animation:click-data-v-da137758 .2s ease-in-out 1}.replayer-mouse-tail[data-v-da137758]{position:absolute;pointer-events:none}@keyframes click-data-v-da137758{0%{opacity:.3;width:20px;height:20px;border-radius:10px;transform:translate(-10px,-10px)}50%{opacity:.5;width:10px;height:10px;border-radius:5px;transform:translate(-5px,-5px)}}",
+  inject("data-v-81644ed0_0", {
+    source: ".replayer-wrapper[data-v-81644ed0]{position:relative}.replayer-mouse[data-v-81644ed0]{position:absolute;width:20px;height:20px;transition:.05s linear;background-size:contain;background-position:50%;background-repeat:no-repeat;background-image:url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCA1MCA1MCI+PHBhdGggZD0iTTQ4LjcxIDQyLjkxTDM0LjA4IDI4LjI5IDQ0LjMzIDE4YTEgMSAwIDAwLS4zMy0xLjYxTDIuMzUgMS4wNmExIDEgMCAwMC0xLjI5IDEuMjlMMTYuMzkgNDRhMSAxIDAgMDAxLjY1LjM2bDEwLjI1LTEwLjI4IDE0LjYyIDE0LjYzYTEgMSAwIDAwMS40MSAwbDQuMzgtNC4zOGExIDEgMCAwMC4wMS0xLjQyem0tNS4wOSAzLjY3TDI5IDMyYTEgMSAwIDAwLTEuNDEgMGwtOS44NSA5Ljg1TDMuNjkgMy42OWwzOC4xMiAxNEwzMiAyNy41OEExIDEgMCAwMDMyIDI5bDE0LjU5IDE0LjYyeiIvPjwvc3ZnPg==)}.replayer-mouse[data-v-81644ed0]:after{content:\"\";display:inline-block;width:20px;height:20px;border-radius:10px;background:#4950f6;transform:translate(-10px,-10px);opacity:.3}.replayer-mouse.active[data-v-81644ed0]:after{animation:click-data-v-81644ed0 .2s ease-in-out 1}.replayer-mouse-tail[data-v-81644ed0]{position:absolute;pointer-events:none}@keyframes click-data-v-81644ed0{0%{opacity:.3;width:20px;height:20px;border-radius:10px;transform:translate(-10px,-10px)}50%{opacity:.5;width:10px;height:10px;border-radius:5px;transform:translate(-5px,-5px)}}.rr-player[data-v-81644ed0]{position:relative;background:#fff;float:left;border-radius:5px;box-shadow:0 24px 48px rgba(17,16,62,.12)}.rr-player__frame[data-v-81644ed0]{overflow:hidden}",
     map: undefined,
     media: undefined
   });
@@ -4353,10 +4353,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-da137758";
+var __vue_scope_id__ = "data-v-81644ed0";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-da137758";
+var __vue_module_identifier__ = "data-v-81644ed0";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

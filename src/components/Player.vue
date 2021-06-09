@@ -294,7 +294,7 @@ export default /*#__PURE__*/Vue.extend({
 </script>
 <style scoped>
 @import "node_modules/rrweb/dist/rrweb.min.css";
->>> .rr-player {
+.rr-player {
   position: relative;
   background: white;
   float: left;
@@ -302,7 +302,7 @@ export default /*#__PURE__*/Vue.extend({
   box-shadow: 0 24px 48px rgba(17, 16, 62, 0.12);
 }
 
->>> .rr-player__frame {
+.rr-player__frame {
   overflow: hidden;
 }
 
