@@ -4146,8 +4146,8 @@ var __vue_staticRenderFns__$1 = [];
 
 const __vue_inject_styles__$1 = function (inject) {
   if (!inject) return;
-  inject("data-v-15365d11_0", {
-    source: ".rr-controller{width:100%;height:80px;background:#fff;display:flex;flex-direction:column;justify-content:space-around;align-items:center;border-radius:0 0 5px 5px}.rr-timeline{width:80%;display:flex;align-items:center}.rr-timeline__time{display:inline-block;width:100px;text-align:center;color:#11103e}.rr-progress{flex:1;height:12px;background:#eee;position:relative;border-radius:3px;cursor:pointer;box-sizing:border-box;border-top:solid 4px #fff;border-bottom:solid 4px #fff}.rr-progress.disabled{cursor:not-allowed}.rr-progress__step{height:100%;position:absolute;left:0;top:0;background:#e0e1fe}.rr-progress__handler{width:20px;height:20px;border-radius:10px;position:absolute;top:2px;transform:translate(-50%,-50%);background:#4950f6}.rr-controller__btns{display:flex;align-items:center;justify-content:center;font-size:13px}.rr-controller__btns button{width:32px;height:32px;display:flex;padding:0;align-items:center;justify-content:center;background:0 0;border:none;border-radius:50%;cursor:pointer}.rr-controller__btns button:active{background:#e0e1fe}.rr-controller__btns button.active{color:#fff;background:#4950f6}.rr-controller__btns button:disabled{cursor:not-allowed}",
+  inject("data-v-445db5e2_0", {
+    source: ".rr-controller[data-v-445db5e2]{width:100%;height:80px;background:#fff;display:flex;flex-direction:column;justify-content:space-around;align-items:center;border-radius:0 0 5px 5px}.rr-timeline[data-v-445db5e2]{width:80%;display:flex;align-items:center}.rr-timeline__time[data-v-445db5e2]{display:inline-block;width:100px;text-align:center;color:#11103e}.rr-progress[data-v-445db5e2]{flex:1;height:12px;background:#eee;position:relative;border-radius:3px;cursor:pointer;box-sizing:border-box;border-top:solid 4px #fff;border-bottom:solid 4px #fff}.rr-progress.disabled[data-v-445db5e2]{cursor:not-allowed}.rr-progress__step[data-v-445db5e2]{height:100%;position:absolute;left:0;top:0;background:#e0e1fe}.rr-progress__handler[data-v-445db5e2]{width:20px;height:20px;border-radius:10px;position:absolute;top:2px;transform:translate(-50%,-50%);background:#4950f6}.rr-controller__btns[data-v-445db5e2]{display:flex;align-items:center;justify-content:center;font-size:13px}.rr-controller__btns button[data-v-445db5e2]{width:32px;height:32px;display:flex;padding:0;align-items:center;justify-content:center;background:0 0;border:none;border-radius:50%;cursor:pointer}.rr-controller__btns button[data-v-445db5e2]:active{background:#e0e1fe}.rr-controller__btns button.active[data-v-445db5e2]{color:#fff;background:#4950f6}.rr-controller__btns button[data-v-445db5e2]:disabled{cursor:not-allowed}",
     map: undefined,
     media: undefined
   });
@@ -4155,7 +4155,7 @@ const __vue_inject_styles__$1 = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__$1 = undefined;
+const __vue_scope_id__$1 = "data-v-445db5e2";
 /* module identifier */
 
 const __vue_module_identifier__$1 = undefined;
@@ -4508,8 +4508,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-64cd5baa_0", {
-    source: ".replayer-wrapper{position:relative}.replayer-mouse{position:absolute;width:20px;height:20px;transition:.05s linear;background-size:contain;background-position:50%;background-repeat:no-repeat;background-image:url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCA1MCA1MCI+PHBhdGggZD0iTTQ4LjcxIDQyLjkxTDM0LjA4IDI4LjI5IDQ0LjMzIDE4YTEgMSAwIDAwLS4zMy0xLjYxTDIuMzUgMS4wNmExIDEgMCAwMC0xLjI5IDEuMjlMMTYuMzkgNDRhMSAxIDAgMDAxLjY1LjM2bDEwLjI1LTEwLjI4IDE0LjYyIDE0LjYzYTEgMSAwIDAwMS40MSAwbDQuMzgtNC4zOGExIDEgMCAwMC4wMS0xLjQyem0tNS4wOSAzLjY3TDI5IDMyYTEgMSAwIDAwLTEuNDEgMGwtOS44NSA5Ljg1TDMuNjkgMy42OWwzOC4xMiAxNEwzMiAyNy41OEExIDEgMCAwMDMyIDI5bDE0LjU5IDE0LjYyeiIvPjwvc3ZnPg==)}.replayer-mouse:after{content:\"\";display:inline-block;width:20px;height:20px;border-radius:10px;background:#4950f6;transform:translate(-10px,-10px);opacity:.3}.replayer-mouse.active:after{animation:click .2s ease-in-out 1}.replayer-mouse-tail{position:absolute;pointer-events:none}@keyframes click{0%{opacity:.3;width:20px;height:20px;border-radius:10px;transform:translate(-10px,-10px)}50%{opacity:.5;width:10px;height:10px;border-radius:5px;transform:translate(-5px,-5px)}}.rr-player{position:relative;background:#fff;float:left;border-radius:5px;box-shadow:0 24px 48px rgba(17,16,62,.12)}.rr-player__frame{overflow:hidden}.replayer-wrapper{float:left;clear:both;transform-origin:top left;left:50%;top:50%}.replayer-wrapper>iframe{border:none}",
+  inject("data-v-da137758_0", {
+    source: ".replayer-wrapper[data-v-da137758]{position:relative}.replayer-mouse[data-v-da137758]{position:absolute;width:20px;height:20px;transition:.05s linear;background-size:contain;background-position:50%;background-repeat:no-repeat;background-image:url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCA1MCA1MCI+PHBhdGggZD0iTTQ4LjcxIDQyLjkxTDM0LjA4IDI4LjI5IDQ0LjMzIDE4YTEgMSAwIDAwLS4zMy0xLjYxTDIuMzUgMS4wNmExIDEgMCAwMC0xLjI5IDEuMjlMMTYuMzkgNDRhMSAxIDAgMDAxLjY1LjM2bDEwLjI1LTEwLjI4IDE0LjYyIDE0LjYzYTEgMSAwIDAwMS40MSAwbDQuMzgtNC4zOGExIDEgMCAwMC4wMS0xLjQyem0tNS4wOSAzLjY3TDI5IDMyYTEgMSAwIDAwLTEuNDEgMGwtOS44NSA5Ljg1TDMuNjkgMy42OWwzOC4xMiAxNEwzMiAyNy41OEExIDEgMCAwMDMyIDI5bDE0LjU5IDE0LjYyeiIvPjwvc3ZnPg==)}.replayer-mouse[data-v-da137758]:after{content:\"\";display:inline-block;width:20px;height:20px;border-radius:10px;background:#4950f6;transform:translate(-10px,-10px);opacity:.3}.replayer-mouse.active[data-v-da137758]:after{animation:click-data-v-da137758 .2s ease-in-out 1}.replayer-mouse-tail[data-v-da137758]{position:absolute;pointer-events:none}@keyframes click-data-v-da137758{0%{opacity:.3;width:20px;height:20px;border-radius:10px;transform:translate(-10px,-10px)}50%{opacity:.5;width:10px;height:10px;border-radius:5px;transform:translate(-5px,-5px)}}",
     map: undefined,
     media: undefined
   });
@@ -4517,7 +4517,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = undefined;
+const __vue_scope_id__ = "data-v-da137758";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
