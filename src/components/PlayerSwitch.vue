@@ -1,5 +1,5 @@
 <template>
-  <div class="rr-player-switch" :class="{disabled}">
+  <div class="rr-player-switch" :class="{ disabled }">
     <input type="checkbox" :id="id" :checked="checked" @change="$emit('input', $event)" :disabled="disabled" />
     <label :for="id" />
     <span class="label">{{label}}</span>
@@ -51,6 +51,7 @@ export default Vue.extend({
   .rr-player-switch input[type='checkbox'] {
     position: absolute;
     opacity: 0;
+    pointer-events: none;
   }
 
   .rr-player-switch label {

@@ -172,43 +172,10 @@ export default /*#__PURE__*/Vue.extend({
         `scale(${Math.min(widthScale, heightScale, 1)})` +
         'translate(-50%, -50%)';
     },
-    triggerResize() {
-      this.updateScale(this.replayer.wrapper, {
-        width: this.replayer.iframe.offsetWidth,
-        height: this.replayer.iframe.offsetHeight,
-      });
-    },
     toggleFullScreen() {
       if (this.player) {
         isFullscreen() ? exitFullscreen() : openFullscreen(this.player);
       }
-    },
-    addEvent(event: eventWithTime) {
-      this.replayer.addEvent(event);
-    },
-    getMetaData() {
-      this.replayer.getMetaData();
-    },
-    getReplayer() {
-      return this.replayer;
-    },
-    toggle() {
-      this.controllerRef.toggle();
-    },
-    setSpeed(speed: number) {
-      this.controllerRef.setSpeed(speed);
-    },
-    toggleSkipInactive() {
-      this.controllerRef.toggleSkipInactive();
-    },
-    play() {
-      this.controllerRef.play();
-    },
-    pause() {
-      this.controllerRef.pause();
-    },
-    goto(timeOffset: number) {
-      this.controllerRef.goto(timeOffset);
     },
   },
   mounted() {

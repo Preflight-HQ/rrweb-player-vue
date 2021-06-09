@@ -1,9 +1,10 @@
 <script lang="ts">
-import Vue from 'vue';
-import Player from '@/components/Player.vue';
-import { events } from '@/events'
+import Vue from "vue";
+import Player from "@/components/Player.vue";
+// @ts-ignore
+import { events } from "@/../dev/events";
 export default Vue.extend({
-  name: 'ServeDev',
+  name: "ServeDev",
   components: {
     Player
   },
