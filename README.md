@@ -10,11 +10,11 @@ Vue-based player for [rrweb](https://github.com/rrweb-io/rrweb)
 
 #### npm
 ```sh
-npm install rrweb-player-vue
+npm install @preflight-hq/rrweb-player-vue
 ```
 #### Yarn
 ```sh
-yarn add rrweb-player-vue
+yarn add @preflight-hq/rrweb-player-vue
 ```
 
 ## Basic usage
@@ -25,7 +25,7 @@ yarn add rrweb-player-vue
 </template>
 
 <script>
-import RrWebPlayer from 'rrweb-player-vue'
+import RrWebPlayer from '@preflight-hq/rrweb-player-vue'
 export default {
   components: {
     RrWebPlayer
