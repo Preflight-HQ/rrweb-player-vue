@@ -1,5 +1,5 @@
 <template>
-  <div class="switch" :class="{disabled}">
+  <div class="rr-player-switch" :class="{disabled}">
     <input type="checkbox" :id="id" :checked="checked" @change="$emit('input', $event)" :disabled="disabled" />
     <label :for="id" />
     <span class="label">{{label}}</span>
@@ -33,14 +33,14 @@ export default Vue.extend({
   }
 })
 </script>
-<style scoped>
-  .switch {
+<style>
+  .rr-player-switch {
     height: 1em;
     display: flex;
     align-items: center;
   }
 
-  .switch.disabled {
+  .rr-player-switch.disabled {
     opacity: 0.5;
   }
 
@@ -48,12 +48,12 @@ export default Vue.extend({
     margin: 0 8px;
   }
 
-  .switch input[type='checkbox'] {
+  .rr-player-switch input[type='checkbox'] {
     position: absolute;
     opacity: 0;
   }
 
-  .switch label {
+  .rr-player-switch label {
     width: 2em;
     height: 1em;
     position: relative;
@@ -61,11 +61,11 @@ export default Vue.extend({
     display: block;
   }
 
-  .switch.disabled label {
+  .rr-player-switch.disabled label {
     cursor: not-allowed;
   }
 
-  .switch label:before {
+  .rr-player-switch label:before {
     content: '';
     position: absolute;
     width: 2em;
@@ -76,7 +76,7 @@ export default Vue.extend({
     border-radius: 50px;
   }
 
-  .switch label:after {
+  .rr-player-switch label:after {
     content: '';
     position: absolute;
     width: 1em;
@@ -90,11 +90,11 @@ export default Vue.extend({
     z-index: 2;
   }
 
-  .switch input[type='checkbox']:checked + label:before {
+  .rr-player-switch input[type='checkbox']:checked + label:before {
     background: rgb(73, 80, 246);
   }
 
-  .switch input[type='checkbox']:checked + label:after {
+  .rr-player-switch input[type='checkbox']:checked + label:after {
     animation: switch-on 0.2s ease-out;
     left: 1.1em;
   }

@@ -292,7 +292,7 @@ export default /*#__PURE__*/Vue.extend({
   }
 });
 </script>
-<style scoped>
+<style>
 @import "node_modules/rrweb/dist/rrweb.min.css";
 .rr-player {
   position: relative;
@@ -306,7 +306,7 @@ export default /*#__PURE__*/Vue.extend({
   overflow: hidden;
 }
 
->>> .replayer-wrapper {
+.replayer-wrapper {
   float: left;
   clear: both;
   transform-origin: top left;
@@ -314,7 +314,7 @@ export default /*#__PURE__*/Vue.extend({
   top: 50%;
 }
 
->>> .replayer-wrapper > iframe {
+.replayer-wrapper > iframe {
   border: none;
 }
 </style>
