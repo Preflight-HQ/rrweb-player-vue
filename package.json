@@ -1,7 +1,7 @@
 {
-  "name": "rrweb-player-vue",
+  "name": "@preflight-hq/rrweb-player-vue",
   "version": "1.0.0",
-  "description": "",
+  "description": "Vue-based player for [rrweb](https://github.com/rrweb-io/rrweb)",
   "main": "dist/rrweb-player-vue.ssr.js",
   "browser": "dist/rrweb-player-vue.esm.js",
   "module": "dist/rrweb-player-vue.esm.js",
@@ -49,5 +49,20 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Preflight-HQ/rrweb-player-vue.git"
+  },
+  "keywords": [
+    "rrweb",
+    "rrweb-player",
+    "rrweb-player-vue"
+  ],
+  "author": "Preflight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Preflight-HQ/rrweb-player-vue/issues"
+  },
+  "homepage": "https://github.com/Preflight-HQ/rrweb-player-vue#readme"
 }
