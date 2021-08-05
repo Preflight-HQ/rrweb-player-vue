@@ -12,6 +12,7 @@
         :tags="tags"
         :speed.sync="computedSpeed"
         @fullscreen="toggleFullScreen"
+        @ui-update-current-time="$emit('ui-update-current-time', $event.payload)"
       />
     </template>
   </div>

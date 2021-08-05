@@ -53,3 +53,9 @@ export default {
 | showController | `boolean` | `true` |
 | tags | `Object` | `{}` |
 
+## Events
+
+| Name |
+| :-------- |
+| ui-update-current-time
+
