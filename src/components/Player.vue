@@ -123,10 +123,10 @@ export default /*#__PURE__*/Vue.extend({
     },
     computedSkipInactive: {
       get() {
-        return this.skipInactive || this.defaultSkipInactive
+        return this.skipInactive === undefined ? this.defaultSkipInactive : this.skipInactive
       },
       set(value: boolean) {
-        if (this.skipInactive) {
+        if (this.skipInactive !== undefined) {
           this.$emit('update:skip-inactive', value)
         } else {
           this.defaultSkipInactive = value
