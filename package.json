@@ -1,6 +1,6 @@
 {
   "name": "@preflight-hq/rrweb-player-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vue-based player for [rrweb](https://github.com/rrweb-io/rrweb)",
   "main": "dist/rrweb-player-vue.ssr.js",
   "browser": "dist/rrweb-player-vue.esm.js",
