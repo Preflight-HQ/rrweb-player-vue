@@ -4213,10 +4213,11 @@ var __vue_component__$1 = /*#__PURE__*/normalizeComponent({
       root: this.frame,
       unpackFn: unpack
     });
-    this.$nextTick(function () {});
-    this.replayer.on('resize', // @ts-ignore
-    function (dimension) {
-      _this.updateScale(_this.replayer.wrapper, dimension);
+    this.$nextTick(function () {
+      _this.replayer.on('resize', // @ts-ignore
+      function (dimension) {
+        _this.updateScale(_this.replayer.wrapper, dimension);
+      });
     });
     this.fullscreenListener = onFullscreenChange(function () {
       if (isFullscreen()) {
@@ -4304,6 +4305,9 @@ var __vue_render__ = function __vue_render__() {
       "fullscreen": _vm.toggleFullScreen,
       "ui-update-current-time": function uiUpdateCurrentTime($event) {
         return _vm.$emit('ui-update-current-time', $event.payload);
+      },
+      "ui-update-player-state": function uiUpdatePlayerState($event) {
+        return _vm.$emit('ui-update-player-state', $event.payload);
       }
     }
   })] : _vm._e()], 2);
@@ -4314,7 +4318,7 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-16e103b0_0", {
+  inject("data-v-3bada9da_0", {
     source: ".replayer-wrapper{position:relative}.replayer-mouse{position:absolute;width:20px;height:20px;transition:.05s linear;background-size:contain;background-position:50%;background-repeat:no-repeat;background-image:url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCA1MCA1MCI+PHBhdGggZD0iTTQ4LjcxIDQyLjkxTDM0LjA4IDI4LjI5IDQ0LjMzIDE4YTEgMSAwIDAwLS4zMy0xLjYxTDIuMzUgMS4wNmExIDEgMCAwMC0xLjI5IDEuMjlMMTYuMzkgNDRhMSAxIDAgMDAxLjY1LjM2bDEwLjI1LTEwLjI4IDE0LjYyIDE0LjYzYTEgMSAwIDAwMS40MSAwbDQuMzgtNC4zOGExIDEgMCAwMC4wMS0xLjQyem0tNS4wOSAzLjY3TDI5IDMyYTEgMSAwIDAwLTEuNDEgMGwtOS44NSA5Ljg1TDMuNjkgMy42OWwzOC4xMiAxNEwzMiAyNy41OEExIDEgMCAwMDMyIDI5bDE0LjU5IDE0LjYyeiIvPjwvc3ZnPg==)}.replayer-mouse:after{content:\"\";display:inline-block;width:20px;height:20px;border-radius:10px;background:#4950f6;transform:translate(-10px,-10px);opacity:.3}.replayer-mouse.active:after{animation:click .2s ease-in-out 1}.replayer-mouse-tail{position:absolute;pointer-events:none}@keyframes click{0%{opacity:.3;width:20px;height:20px;border-radius:10px;transform:translate(-10px,-10px)}50%{opacity:.5;width:10px;height:10px;border-radius:5px;transform:translate(-5px,-5px)}}.rr-player{position:relative;background:#fff;float:left;border-radius:5px;box-shadow:0 24px 48px rgba(17,16,62,.12)}.rr-player__frame{overflow:hidden}.replayer-wrapper{float:left;clear:both;transform-origin:top left;left:50%;top:50%}.replayer-wrapper>iframe{border:none}",
     map: undefined,
     media: undefined
@@ -4326,7 +4330,7 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 var __vue_scope_id__ = undefined;
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-16e103b0";
+var __vue_module_identifier__ = "data-v-3bada9da";
 /* functional template */
 
 var __vue_is_functional_template__ = false;

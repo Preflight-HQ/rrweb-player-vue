@@ -58,4 +58,5 @@ export default {
 | Name |
 | :-------- |
 | ui-update-current-time
+| ui-update-player-state
 

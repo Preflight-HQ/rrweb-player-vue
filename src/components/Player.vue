@@ -13,6 +13,7 @@
         :speed.sync="computedSpeed"
         @fullscreen="toggleFullScreen"
         @ui-update-current-time="$emit('ui-update-current-time', $event.payload)"
+        @ui-update-player-state="$emit('ui-update-player-state', $event.payload)"
       />
     </template>
   </div>
@@ -209,14 +210,14 @@ export default /*#__PURE__*/Vue.extend({
       unpackFn: unpack,
     });
     this.$nextTick(() => {
+      this.replayer.on(
+        'resize',
+        // @ts-ignore
+        (dimension: { width: number; height: number }) => {
+          this.updateScale(this.replayer.wrapper, dimension);
+        },
+      );
     })
-    this.replayer.on(
-      'resize',
-      // @ts-ignore
-      (dimension: { width: number; height: number }) => {
-        this.updateScale(this.replayer.wrapper, dimension);
-      },
-    );
     this.fullscreenListener = onFullscreenChange(() => {
       if (isFullscreen()) {
         setTimeout(() => {
