@@ -1,6 +1,6 @@
 {
   "name": "@preflight-hq/rrweb-player-vue",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Vue-based player for [rrweb](https://github.com/rrweb-io/rrweb)",
   "main": "dist/rrweb-player-vue.ssr.js",
   "browser": "dist/rrweb-player-vue.esm.js",
@@ -21,7 +21,7 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
   "dependencies": {
-    "rrweb": "^0.9.14"
+    "rrweb": "^1.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
